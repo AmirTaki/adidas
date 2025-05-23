@@ -21,3 +21,8 @@
     font-size: 16px !important;
     letter-spacing: 3px;
 }
+
+.top h3 i {
+    font-size: 18px;
+    font-weight: 900;
+}
