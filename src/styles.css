@@ -30,7 +30,6 @@
 
 .upper-page {
     width: 100%;
-    background-color: rgb(0, 4, 255);
     padding: 100px;
     display: flex;
     justify-content: center;
@@ -40,7 +39,6 @@
 
 .upper-page div {
     width:400px ;
-    border: 2px solid yellow;
     margin: 30px;
     padding: 10px;
 }
@@ -50,7 +48,6 @@
 }
 
 .upper-page div p {
-    border: 1px solid blue;
     font-size: 10px;
     line-height: 20px;
     margin: 10px 0;
@@ -65,4 +62,20 @@
     background-color: black;
     color : white;
     text-decoration: none;
+}
+
+.cross {
+    margin: 10px;
+    display: flex;
+    flex-direction:column; 
+    flex-wrap: nowrap;
+    align-items: end;
+}
+ 
+.cross i {
+    padding: 10px;
+    border: 1px solid black;
+    font-size: 15px ;
+    font-weight: 800;
+    color :black
 }
