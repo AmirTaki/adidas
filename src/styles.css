@@ -167,8 +167,9 @@ header {
     font-size:13px ;
     font-weight: 700;
     position: relative;
-    border: 1px solid green;
-    padding-bottom : 29px; 
+    /* border: 1px solid green; */
+    padding-bottom : 28.5px; 
+    transition: all .1s;
 }
 .header-bottom div ul li:hover    {
   border-bottom: 3px solid black;
@@ -188,7 +189,7 @@ header {
 
 .header-bottom div input {
     padding: 10px ;
-    width: 100%;
+    width: 200px;
     background-color: rgb(246, 246, 246);
     border: none;
     outline: none;
@@ -200,7 +201,7 @@ header {
 .search-header .bi-search{
     position: absolute;
     top : 6px;
-    right: 4px;
+    right: 8px;
     font-size: 18px;
 }
 
@@ -209,6 +210,13 @@ header {
     font-size: 20px;
     top : 6px;
     right: -30px;
+}
+
+.search-header .bi-suit-heart{
+    position: absolute;
+    font-size: 20px;
+    top : 6px;
+    right: -70px;
 }
 
 /* ACTIVE & DEACTIVE */
