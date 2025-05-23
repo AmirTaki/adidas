@@ -181,23 +181,29 @@ header {
 
 .search-header {
     display: flex;
-    background-color: red;
     align-items: end;
     border: 1px solid green;
+    position: relative;
+    background-color: rgb(246, 246, 246);
     /* padding-top : 20px */
 }
 
 .header-bottom div input {
     padding: 10px ;
-    line-height: 10px;
-    width: 230px;
-    background-color: rgb(246, 246, 246);
+    width: 100%;
+    background-color:transparent;
     border: none;
     outline: none;
 }
 .header-bottom div input::placeholder{
     font-size: 17px;
     color : rgb(201, 201, 201)
+}
+.search-header .bi-search{
+    position: relative;
+    top : -6px;
+    right: 5px;
+    font-size: 18px;
 }
 
 /* ACTIVE & DEACTIVE */
