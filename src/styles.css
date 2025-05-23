@@ -203,6 +203,7 @@ header {
     top : 6px;
     right: 8px;
     font-size: 18px;
+    cursor:none !important;
 }
 
 .search-header .bi-person{
@@ -218,7 +219,15 @@ header {
     top : 6px;
     right: -70px;
 }
-
+.search-header .bi-suitcase2 {
+    position: absolute;
+    font-size: 20px;
+    top : 6px;
+    right: -110px;
+}
+.search-header i:hover {
+    cursor: pointer;
+}
 /* ACTIVE & DEACTIVE */
 .active {
     display: "";
