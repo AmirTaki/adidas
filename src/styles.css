@@ -68,7 +68,7 @@
 }
 
 .cross {
-    margin: 10px;
+    margin: 0px;
     display: flex;
     flex-direction:column; 
     flex-wrap: nowrap;
@@ -85,9 +85,11 @@
 
 #header-upper{
     transform: translateY(-900px);
-    background-color: white;
+    background-color: rgb(1, 38, 172);
     z-index: 6;
-    padding-top: 20px;
+    /* padding-top: 20px; */
+    padding-top: 5%;
+    padding-right: 5%;
 }
 .header-upper {
     animation: move .5s linear forwards ;
@@ -100,10 +102,10 @@
 @keyframes move {
     0%{
       
-        transform: translateY(-460px);
+        transform: translateY(-1000px);
     }
     100% {
-        transform: translateY(-50px);  
+        transform: translateY(-130px);  
 
     }
 }
@@ -113,7 +115,7 @@
         transform: translateY(10px);
     }
     100% {
-        transform: translateY(-900px);
+        transform: translateY(-1000px);
     }
 }   
 
