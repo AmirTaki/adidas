@@ -152,27 +152,23 @@ header {
     flex-direction: row;
     justify-content: space-around;
     align-items: center;
-    border-bottom: 1px solid gray;
     background-color: rgb(255, 255, 255);
     padding-bottom: 13px ;
-    /* height: 75px; */
 }
-
 
 .header-bottom div ul li {
     /* border: 1px solid green; */
     display: inline;
     list-style-type: none;
-    margin-right: 10px;
+    margin-right: 17px;
     font-size:13px ;
     font-weight: 700;
     position: relative;
-    /* border: 1px solid green; */
-    padding-bottom : 28.5px; 
+    padding-bottom : 26px; 
     transition: all .1s;
 }
 .header-bottom div ul li:hover    {
-  border-bottom: 3px solid black;
+  border-bottom: 4px solid black;
   cursor: pointer;
 }
 
@@ -184,19 +180,18 @@ header {
     display: flex;
     align-items: end;
     position: relative;
-    /* padding-top : 20px */
 }
 
 .header-bottom div input {
     padding: 10px ;
     width: 200px;
-    background-color: rgb(246, 246, 246);
+    background-color: rgb(245, 245, 245);
     border: none;
     outline: none;
 }
 .header-bottom div input::placeholder{
     font-size: 17px;
-    color : rgb(201, 201, 201)
+    color : rgb(0, 0, 0)
 }
 .search-header .bi-search{
     position: absolute;
@@ -224,6 +219,9 @@ header {
     font-size: 20px;
     top : 6px;
     right: -110px;
+}
+.search-header i {
+    font-weight: 1100;
 }
 .search-header i:hover {
     cursor: pointer;
