@@ -19,6 +19,7 @@
     height: 50px;
     box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
     cursor: pointer;
+    z-index: 3;
 }
 .top h3 {
     font-weight: 500;
@@ -84,14 +85,20 @@
     color :black
 }
 
-#header-upper {
-    animation: move .5s linear forwards;
+.header-upper {
+    animation: move .5s linear forwards ;
 }
+.heaer-downer{
+    animation: move .5s linear forwards reverse ;
+}
+
 @keyframes move {
     0% {
+        display: 'none';
         transform: translateY(-300px);
     }
     100% {
+        display: "";
         transform: translateY(10px);
     }
 }
