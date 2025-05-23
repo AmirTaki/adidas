@@ -8,6 +8,8 @@
     font-style: normal;
 }
 
+
+/* TOPPER HEADER  */
 .top {
     background-color: black;
     color :white;
@@ -29,7 +31,7 @@
     font-weight: 900;
 }
 
-
+/* PAGE UPPER TOP HEADER */
 .upper-page {
     width: 100%;
     padding: 100px;
@@ -80,6 +82,18 @@
     font-size: 15px ;
     font-weight: 800;
     color :black
+}
+
+#header-upper {
+    animation: move .5s linear forwards;
+}
+@keyframes move {
+    0% {
+        transform: translateY(-300px);
+    }
+    100% {
+        transform: translateY(10px);
+    }
 }
 
 .active {
