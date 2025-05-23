@@ -85,23 +85,35 @@
     color :black
 }
 
+#header-upper{
+    transform: translateY(-1000px);
+}
 .header-upper {
     animation: move .5s linear forwards ;
 }
 .heaer-downer{
-    animation: move .5s linear forwards reverse ;
+    animation: moveRverse .5s linear forwards
 }
 
 @keyframes move {
-    0% {
-        display: 'none';
-        transform: translateY(-300px);
+    0%{
+        transform: translateY(-460px);
     }
     100% {
-        display: "";
+
         transform: translateY(10px);
     }
 }
+
+@keyframes moveRverse {  
+    0% {
+        transform: translateY(10px);
+    }
+    100% {
+        transform: translateY(-900px);
+    }
+}   
+
 
 .active {
     display: "";
