@@ -149,10 +149,35 @@ header {
 .header-bottom {
     width: 100%;
     display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: end;
+    border-bottom: 1px solid gray;
+    padding : 20px 0;
 }
+
+
+.header-bottom div ul li {
+    display: inline;
+    list-style-type: none;
+    margin-right: 10px;
+    font-size:13px ;
+    font-weight: 700;
+    position: relative;
+    border: 1px solid gray;
+    padding: 20px;
+}
+.header-bottom div ul li:hover    {
+  border-bottom: 2px solid black;
+  cursor: pointer;
+}
+
 .header-bottom svg{
     width: 50px;
 }
+
+
+/* ACTIVE & DEACTIVE */
 .active {
     display: "";
 }
