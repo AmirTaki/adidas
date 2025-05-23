@@ -1,6 +1,7 @@
 let topHeader = document.querySelector('.top')
 let headerUpper = document.getElementById('header-upper')
 let crossHeader = document.querySelector(".cross i")
+let header = document.querySelector("header")
 
 
 topHeader.addEventListener("click", (event)=> {
