@@ -84,9 +84,10 @@
 }
 
 #header-upper{
-      transform: translateY(-900px);
-      background-color: white;
-      z-index: 6;
+    transform: translateY(-900px);
+    background-color: white;
+    z-index: 6;
+    padding-top: 20px;
 }
 .header-upper {
     animation: move .5s linear forwards ;
@@ -102,7 +103,7 @@
         transform: translateY(-460px);
     }
     100% {
-        transform: translateY(10px);  
+        transform: translateY(-50px);  
 
     }
 }
