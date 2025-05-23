@@ -5,10 +5,19 @@
     margin: 0;
     box-sizing: border-box;
      font-family: "Roboto", sans-serif;
-    font-optical-sizing: auto;
     font-style: normal;
 }
 .top {
-background-color: black;
-color :white
+    background-color: black;
+    color :white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 50px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+}
+.top h3 {
+    font-weight: 500;
+    font-size: 16px !important;
+    letter-spacing: 3px;
 }
