@@ -123,7 +123,7 @@
 /* HEADER */
 header {
     width: 100%;
-    display: flex; 
+    display: flex;
     flex-direction: row;
     flex-wrap: wrap;
 }
@@ -143,6 +143,15 @@ header {
 .header-top ul li:hover {
     text-decoration: underline;
     cursor: pointer;
+}
+
+/* header-bottom */
+.header-bottom {
+    width: 100%;
+    display: flex;
+}
+.header-bottom svg{
+    width: 50px;
 }
 .active {
     display: "";
