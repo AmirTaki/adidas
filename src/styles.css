@@ -123,12 +123,26 @@ header {
     width: 100%;
     display: flex;
     z-index: 1;
+    flex-direction: row;
+    flex-wrap: wrap;
 }
-header div {
-    background-color: red;
+.header-top {
+    width: 100%;
+    background-color: rgb(218, 4, 4);
 }
-
-
+.header-top ul {
+    float: right;
+    padding: 10px;
+}
+.header-top ul li{
+    display: inline;
+    margin-right: 20px;
+    font-size: 13px;
+}
+.header-top ul li:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
 .active {
     display: "";
 }
