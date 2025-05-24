@@ -9,6 +9,10 @@ let environmentLi = document.querySelector(".header-li")
 let menuLi = document.querySelectorAll(".header-li ul li")
 let megaMenu = document.querySelector('.all-megaMenu')
 
+// heart sider image
+let heart = document.querySelectorAll('.sider-move-img .bi-suit-heart')
+
+
 // TOP HEADER ANIMATION
 topHeader.addEventListener("click", (event)=> {
     topHeader.classList.add("deactive")
@@ -32,3 +36,11 @@ for(let i = 0; i< menuLi.length; i++){
 environmentLi.addEventListener('mouseleave', (event)=> {
     megaMenu.classList.add('deactive')
 })
+
+console.log(heart)
+// img sider  convert heart to fill heart
+for (let i = 0; i< heart.length; i++){
+    heart[i].addEventListener("click", (event)=>{
+        heart[i].className = "bi bi-suit-heart-fill"
+    })
+}
