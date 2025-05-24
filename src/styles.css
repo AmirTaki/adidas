@@ -220,6 +220,10 @@ header {
     cursor:none !important;
 }
 
+.icon-list-header {
+    display: none;
+}
+
 .icon-list-header i{
     font-weight: 1100;
     margin-left: 5px;
@@ -238,4 +242,10 @@ header {
     .header-bottom {
           justify-content: space-around;
     }   
+}
+
+@media screen and  (max-width : 950px) {
+    .icon-list-header{
+        display: inline;
+    }
 }
