@@ -252,17 +252,6 @@ header {
 }
 
 
-
-
-
-/* ACTIVE & DEACTIVE */
-.active {
-    display: "";
-}
-.deactive {
-    display: none;
-}
-
 /* @media screen  */
 @media screen and (max-width:1200px) {
     .header-bottom {
@@ -290,4 +279,22 @@ header {
         top : 3px;
         right: 80px;
     }
+    .meddle-header{
+        text-align: left;
+        padding: 25px;
+    }
+    .meddle-header i{
+        top : 19px
+    
+}
+
+}
+
+
+/* ACTIVE & DEACTIVE */
+.active {
+    display: "";
+}
+.deactive {
+    display: none;
 }
