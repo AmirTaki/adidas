@@ -10,7 +10,7 @@ let menuLi = document.querySelectorAll(".header-li ul li")
 let megaMenu = document.querySelector('.all-megaMenu')
 
 // heart sider image
-let heart = document.querySelectorAll('.sider-move-img .bi-suit-heart')
+let heart = document.querySelectorAll('.sider-move-img i')
 
 
 // TOP HEADER ANIMATION
@@ -41,6 +41,6 @@ console.log(heart)
 // img sider  convert heart to fill heart
 for (let i = 0; i< heart.length; i++){
     heart[i].addEventListener("click", (event)=>{
-        heart[i].className = "bi bi-suit-heart-fill"
+        heart[i].className = heart[i].className === "bi bi-suit-heart" ? "bi bi-suit-heart-fill" : "bi bi-suit-heart"
     })
 }
