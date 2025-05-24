@@ -5,6 +5,7 @@ let crossHeader = document.querySelector(".cross i")
 let header = document.querySelector("header")
 let body = document.querySelector("body")
 // MEGA MENU
+let environmentLi = document.querySelector(".header-li")
 let menuLi = document.querySelectorAll(".header-li ul li")
 let megaMenu = document.querySelector('.all-megaMenu')
 
@@ -23,8 +24,11 @@ crossHeader.addEventListener("click", (event)=> {
 
 // MEGA MENU SHOW
 for(let i = 0; i< menuLi.length; i++){
-    menuLi[i].addEventListener("click", (event)=> {
+    menuLi[i].addEventListener("mousemove", (event)=> {
         megaMenu.classList.remove('deactive')
     })
 }
 // MEGA MENU HIDE
+environmentLi.addEventListener('mouseleave', (event)=> {
+    megaMenu.classList.add('deactive')
+})
