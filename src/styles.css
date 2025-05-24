@@ -398,12 +398,19 @@ menu {
 .button-menu-left button{
     color : black;
     background-color: white;
-    border: 1px solid rgb(0, 0, 0);
+    border: 1px solid rgb(179, 179, 179);
     padding: 5px 10px;
     font-size: 13px;
     font-weight: 300;
     margin: 0 3px ;
     outline: none;
+    transition: border .5s;
+}
+.button-menu-left button:hover {
+    cursor: pointer;
+    border : black 1px solid
+}
+.button-menu-right {
 
 }
 
