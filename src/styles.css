@@ -411,7 +411,13 @@ menu {
     border : black 1px solid
 }
 .button-menu-right {
-
+    border: none;
+    outline:  none;
+    background-color: transparent;
+    border-bottom: 1px solid black;
+    padding-bottom: 5px;
+    color : black;
+    font-size: 17px;
 }
 
 /* @media screen  */
