@@ -429,7 +429,7 @@ menu {
 
 /* img sider */
 .sider-move-img {
-    background-color: blue;
+    background-color: rgb(255, 255, 255);
     display: flex;
     flex-flow: row nowrap;
     width: 95%;
@@ -442,8 +442,12 @@ menu {
     display: flex;
     flex-flow: column nowrap;
     justify-content: center;
+    transition: border .5s;
+    margin:  30px 10px;
+}
+.img-sider:hover{
+    cursor: pointer;
     border: 1px solid gray;
-    margin:  20px 10px;
 }
 .img-sider img{
     width: 90%;
