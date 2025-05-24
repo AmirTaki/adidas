@@ -428,12 +428,21 @@ menu {
 }
 
 /* img sider */
+.sider-mover-img {
+    background-color: blue;
+    display: flex;
+    flex-flow: row nowrap;
+    width: 80%;
+    margin: auto;
+    overflow-x: scroll;
+}
 .img-sider {
-    background-color: rgb(225, 255, 0);
+    background-color: rgb(255, 255, 255);
     width: 250px;
     display: flex;
     flex-flow: column nowrap;
     justify-content: center;
+    border: 1px solid gray;
 }
 .img-sider img{
     width: 90%;
