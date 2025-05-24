@@ -253,15 +253,17 @@ header {
 
 /* MEGA MENU */
 .all-megaMenu{
-    background-color: red;
+    background-color: white;
     display: flex;
     flex-flow: column nowrap;
 }
 .megaMenu {
-  background-color: yellow; 
+  background-color: white; 
   display: flex;
   flex-flow: row nowrap;
   justify-content: space-around;
+  height: 400px;
+  border-bottom: 1px solid gray;
 }
 .megaMenu ul {
     margin-left: -95px;
@@ -287,6 +289,12 @@ header {
 .title-megaMenu {
     display: flex;
     flex-flow:  row nowrap;
+    justify-content: space-around;
+    margin: 15px 0;
+}
+.title-megaMenu div {
+    margin-left: -147px;
+
 }
 
 /* @media screen  */
