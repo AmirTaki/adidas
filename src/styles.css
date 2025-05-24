@@ -388,7 +388,7 @@ menu {
 }
 
 .button-menu{
-    background-color: red;
+    background-color: white;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -426,6 +426,9 @@ menu {
     cursor: pointer;
     background-color: rgb(239, 239, 239);
 }
+
+/* img sider */
+
 
 /* @media screen  */
 @media screen and (max-width:1200px) {
