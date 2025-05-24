@@ -251,6 +251,14 @@ header {
     color : gray
 }
 
+/* MEGA MENU */
+.megaMenu {
+  background-color: yellow; 
+  display: flex;
+  flex-flow: row nowrap; 
+}
+
+
 
 /* @media screen  */
 @media screen and (max-width:1200px) {
