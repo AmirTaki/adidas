@@ -39,16 +39,18 @@ body{
 /* PAGE UPPER TOP HEADER */
 .upper-page {
     width: 100%;
-    padding: 100px;
+    padding: 50px;
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
+    height: 300px;
+    align-items: self-start;
 }
 
 .upper-page div {
     width:400px ;
-    margin: 30px;
-    padding: 10px;
+    margin: 30px;  
+    padding: 5px;
 }
 .upper-page div h2 {
     font-size: 11px;
@@ -397,6 +399,16 @@ header {
 }
 
 @media screen and  (max-width : 950px) {
+    /* page uppeer */
+    .upper-page{
+        height: 400px;
+    }
+    .upper-page div {
+        width:400px ;
+        margin: 10px 0;  
+
+    }  
+
     /* header */
     .header-bottom {
           justify-content: space-between;
