@@ -256,9 +256,12 @@ header {
     background-color: white;
     display: flex;
     flex-flow: column nowrap;
+    position: fixed;
+    top: 151px;
+    width: 100%;
 }
 .megaMenu {
-  background-color: white; 
+  background-color: transparent; 
   display: flex;
   flex-flow: row nowrap;
   justify-content: start;
@@ -294,6 +297,7 @@ header {
     display: flex;
     flex-flow:  row nowrap;
     justify-content: space-around;
+    background-color: transparent; 
 }
 .title-megaMenu div {
     width: 300px;
