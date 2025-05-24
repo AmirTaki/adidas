@@ -509,6 +509,9 @@ menu {
 .sider-arrow-img{
     position: relative;
 }
+.bi-arrow-left-square {
+    opacity: 0;
+}
 .bi-arrow-right-square, .bi-arrow-left-square {
     position: absolute;
     font-size: 50px;

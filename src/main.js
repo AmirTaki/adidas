@@ -61,18 +61,22 @@ scrollSider.addEventListener("wheel", (event)=>{
 
 // click left 
 arrowLeft.addEventListener("click", ()=> {
+    scrollSiderBar ()
     scrollSider.style.scrollBehavior = "smooth"
-    scrollSider.scrollLeft -= 900
+    scrollSider.scrollLeft -= 900  
 })
 
 // click right
 arrowRight.addEventListener("click", ()=> {
+    scrollSiderBar ()
     scrollSider.style.scrollBehavior = "smooth"
     scrollSider.scrollLeft += 900
 })
 
-//
-const scrollSiderBar = () => {
-    console.log(scrollSider.scroll)
+
+function scrollSiderBar () {
+    
+    arrowLeft.style.opacity = scrollSider.scrollLeft > 800 ? .3 : 0
+    arrowRight.style.opacity = scrollSider.scrollLeft < (scrollSider.scrollWidth - 500) ? .3 : 0
 }
-scrollSiderBar()
+scrollSiderBar () 
