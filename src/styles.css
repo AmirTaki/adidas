@@ -358,7 +358,6 @@ header {
     left : 4.4%
 }
 .menu-img ul li {
-    /* position: absolute; */
     background-color : rgb(255, 255, 255);
     margin: 10px;
     color: black;
@@ -367,6 +366,9 @@ header {
     font-weight:600;
     padding: 10px;
     list-style-type: none;
+}
+.menu-img ul li:hover {
+    cursor: pointer;
 }
 .menu-img  i{
     font-size: 15px;
