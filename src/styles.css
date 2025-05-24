@@ -214,7 +214,7 @@ header {
 }
 .search-header .bi-search{
     position: absolute;
-    top : 5px;
+    top : 4px;
     right: 120px;
     font-size: 18px;
     cursor:none !important;
@@ -259,5 +259,9 @@ header {
     }
     .search-header .bi-suit-heart{
         display: none;
+    }
+    .search-header .bi-search {
+        top : 3px;
+        right: 80px;
     }
 }
