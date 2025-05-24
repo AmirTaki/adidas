@@ -261,15 +261,19 @@ header {
   background-color: white; 
   display: flex;
   flex-flow: row nowrap;
-  justify-content: space-around;
-  height: 400px;
-  border-bottom: 1px solid gray;
+  justify-content: start;
+  border-bottom: 1px solid rgb(235, 235, 235);
+}
+.megaMenu div {
+    padding: 10px;
+    height: 400px;
+    width: 300px;
 }
 .megaMenu ul {
-    margin-left: -95px;
+    /* margin-left: -95px; */
     display: flex;
     flex-flow : column nowrap ;
-    gap: 22px;
+    gap: 16px;
     color : black;
     font-weight: 600;
 }
