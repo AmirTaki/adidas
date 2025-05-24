@@ -514,8 +514,8 @@ menu {
     font-size: 50px;
     top : 50%;
     color : silver;
-    opacity: 1;
-    transition: color 1s, opacity 1s ;
+    opacity: 0.1;
+    transition: color .5s, opacity .5s ;
 }
  .bi-arrow-right-square{
     right: 60px;
@@ -524,7 +524,8 @@ menu {
     left: 60px;
 }
 .bi-arrow-left-square:hover , .bi-arrow-right-square:hover {
-    color : gray;
+    opacity: 1;
+    color : rgb(50, 50, 50);
     cursor: pointer;
 }
 

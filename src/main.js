@@ -53,11 +53,11 @@ for (let i = 0; i< heart.length; i++){
 }
 
 
-//
-// scrollSider.addEventListener("wheel", (event)=>{
-//     event.preventDefault();
-//     scrollSider.scrollLeft += event.deltaY
-// })
+
+scrollSider.addEventListener("wheel", (event)=>{
+    event.preventDefault();
+    scrollSider.scrollLeft += event.deltaY
+})
 
 // click left 
 arrowLeft.addEventListener("click", ()=> {
@@ -69,5 +69,10 @@ arrowLeft.addEventListener("click", ()=> {
 arrowRight.addEventListener("click", ()=> {
     scrollSider.style.scrollBehavior = "smooth"
     scrollSider.scrollLeft += 900
-
 })
+
+//
+const scrollSiderBar = () => {
+    console.log(scrollSider.scroll)
+}
+scrollSiderBar()
