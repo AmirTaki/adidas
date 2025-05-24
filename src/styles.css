@@ -435,7 +435,6 @@ menu {
     width: 90%;
     margin: auto;
     overflow-x: scroll;
-    /*  */
 }
 
 .img-sider {
@@ -447,7 +446,7 @@ menu {
     justify-content: center;
     transition: border .5s;
     margin:  30px 10px;
-    position: relative;
+    position: relative ;
 }
 .img-sider:hover{
     cursor: pointer;
@@ -505,6 +504,31 @@ menu {
     background-color: hsl(0, 0%, 0%);
     cursor: pointer;
 }
+
+/* arrow left & right */
+.sider-arrow-img{
+    position: relative;
+}
+.sider-arrow-img .bi-arrow-right-square, .sider-arrow-img .bi-arrow-left-square {
+    position: absolute;
+    font-size: 50px;
+    top : 50%;
+    color : silver;
+    opacity: 0;
+    transition: color 1s ,opacity 1s;
+}
+.sider-arrow-img .bi-arrow-right-square{
+    right: 60px;
+}
+.sider-arrow-img .bi-arrow-left-square{
+    left: 60px;
+}
+.bi-arrow-left-square:hover , .bi-arrow-right-square:hover {
+    opacity: 1;
+    color : gray;
+    cursor: pointer;
+}
+
 /* @media screen  */
 @media screen and (max-width:1200px) {
     .header-bottom {
