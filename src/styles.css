@@ -172,11 +172,11 @@ header {
     font-size:13px ;
     font-weight: 700;
     position: relative;
-    padding-bottom : 8px; 
+    padding-bottom : 12px; 
     transition: all .1s;
 }
 .header-bottom div ul li:hover    {
-  border-bottom: 4px solid black;
+  border-bottom: 3.5px solid black;
   cursor: pointer;
 }
 
@@ -193,7 +193,7 @@ header {
     padding: 0px 15px;
     height: 30px;
     width: 100%;
-    background-color: rgb(245, 245, 245);
+    background-color: rgb(237, 237, 237);;
     border: none;
     outline: none;
 }
@@ -237,7 +237,20 @@ header {
 .deactive {
     display: none;
 }
+.meddle-header {
+    border: 1px saddlebrown solid;
+    background-color: rgb(237, 237, 237);
+    padding: 14px;
+    text-align: center;
+  
+}
+.meddle-header h3 {
+    font-size:13px ;
+      font-weight: 300;
+}
 
+
+/* @media screen  */
 @media screen and (max-width:1200px) {
     .header-bottom {
           justify-content: space-around;
