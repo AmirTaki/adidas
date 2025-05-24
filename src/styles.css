@@ -220,7 +220,12 @@ header {
     cursor:none !important;
 }
 
-
+.icon-list-header i{
+    font-weight: 1100;
+    margin-left: 5px;
+    margin-right: 10px;
+    font-size: 23px;
+}
 /* ACTIVE & DEACTIVE */
 .active {
     display: "";
