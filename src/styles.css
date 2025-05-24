@@ -429,7 +429,7 @@ menu {
 
 /* img sider */
 .img-sider {
-    background-color: blue;
+    background-color: rgb(225, 255, 0);
     width: 250px;
     display: flex;
     flex-flow: column nowrap;
@@ -446,6 +446,9 @@ menu {
 }
 .img-sider h5 {
     font-size: 12px;
+    font-weight: 250;
+    color : gray;
+    margin-left: 12px;
     
 }
 /* @media screen  */
