@@ -305,11 +305,27 @@ header {
 
 }
 /* MENU */
+.menu-img {
+    position: relative;
+}
 .menu-img img {
     width: 100%;
     object-fit:cover;
     height: 500px;
 }
+
+/* title in img menu */
+
+.menu-img h2 {
+    position: absolute;
+    color : rgb(255, 255, 255);
+    background-color: transparent;
+    letter-spacing: 3px;
+    font-size: 38px;
+    top : 5%;
+    left: 5%;
+
+}  
 
 
 /* @media screen  */
@@ -358,6 +374,9 @@ header {
         object-fit:fill;
         height: 100%;
         object-position: center;
+    }
+    .menu-img h2 {
+        left: 45%;
     }
 
 }
