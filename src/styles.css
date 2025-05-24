@@ -265,12 +265,12 @@ header {
   border-bottom: 1px solid rgb(235, 235, 235);
 }
 .megaMenu div {
-    padding: 10px;
+    border-right: 1px solid rgb(235, 235, 235);
+    padding: 20px;
     height: 400px;
     width: 300px;
 }
 .megaMenu ul {
-    /* margin-left: -95px; */
     display: flex;
     flex-flow : column nowrap ;
     gap: 16px;
@@ -280,7 +280,7 @@ header {
 
 .megaMenu ul li {
     list-style-type: none;
-     color : rgb(85, 85, 85);
+    color : rgb(85, 85, 85);
     font-weight: 300;
     font-size: 15px;
 }
@@ -294,10 +294,10 @@ header {
     display: flex;
     flex-flow:  row nowrap;
     justify-content: space-around;
-    margin: 15px 0;
 }
 .title-megaMenu div {
-    margin-left: -147px;
+    width: 300px;
+    padding: 20px;
 
 }
 
