@@ -479,7 +479,12 @@ menu {
     right: 10px;
     top : 10px
 }
-.sider-move-img .bi-suit-heart:active {
+.sider-move-img .bi-suit-heart-fill{
+    position: absolute;
+    right: 10px;
+    top : 10px
+}
+.sider-move-img .bi-suit-heart:hover {
     color : rgb(190, 0, 0)
 }
 /* @media screen  */
