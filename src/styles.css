@@ -514,7 +514,7 @@ menu {
     font-size: 50px;
     top : 50%;
     color : silver;
-    opacity: 0;
+    opacity: 1;
     transition: color 1s ,opacity 1s;
 }
 .sider-arrow-img .bi-arrow-right-square{
@@ -528,6 +528,8 @@ menu {
     color : gray;
     cursor: pointer;
 }
+
+
 
 /* @media screen  */
 @media screen and (max-width:1200px) {

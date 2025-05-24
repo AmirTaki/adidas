@@ -12,7 +12,12 @@ let megaMenu = document.querySelector('.all-megaMenu')
 // heart sider image
 let heart = document.querySelectorAll('.sider-move-img i')
 
+//scroll siderbar & button arrow left & button arrow right
+let scrollSider = document.querySelector('.sider-move-img')
+let arrowLeft =  document.querySelector('.sider-move-img .bi-arrow-left-square')
+let arrowRight = document.querySelector('.sider-move-img .bi-arrow-right-square')
 
+/* ----------------------------------------------------------------------------- */
 // TOP HEADER ANIMATION
 topHeader.addEventListener("click", (event)=> {
     topHeader.classList.add("deactive")
@@ -26,6 +31,7 @@ crossHeader.addEventListener("click", (event)=> {
     headerUpper.classList.add('heaer-downer')
 })
 
+/* ----------------------------------------------------------------------------- */
 // MEGA MENU SHOW
 for(let i = 0; i< menuLi.length; i++){
     menuLi[i].addEventListener("mousemove", (event)=> {
@@ -37,10 +43,22 @@ environmentLi.addEventListener('mouseleave', (event)=> {
     megaMenu.classList.add('deactive')
 })
 
-console.log(heart)
+/* ----------------------------------------------------------------------------- */
 // img sider  convert heart to fill heart
 for (let i = 0; i< heart.length; i++){
     heart[i].addEventListener("click", (event)=>{
         heart[i].className = heart[i].className === "bi bi-suit-heart" ? "bi bi-suit-heart-fill" : "bi bi-suit-heart"
     })
 }
+
+// click left 
+arrowLeft.addEventListener("click", ()=> {
+    scrollSider.style.scrollBehavior = "smooth"
+    scrollSider.scrollLeft -= 900
+})
+
+// click right
+arrowRight.addEventListener("click", ()=> {
+    scrollSider.style.scrollBehavior = "smooth"
+    scrollSider.scrollLeft += 900
+})
