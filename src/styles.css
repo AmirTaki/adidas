@@ -509,27 +509,24 @@ menu {
 .sider-arrow-img{
     position: relative;
 }
-.sider-arrow-img .bi-arrow-right-square, .sider-arrow-img .bi-arrow-left-square {
+.bi-arrow-right-square, .bi-arrow-left-square {
     position: absolute;
     font-size: 50px;
     top : 50%;
     color : silver;
     opacity: 1;
-    transition: color 1s ,opacity 1s;
+    transition: color 1s, opacity 1s ;
 }
-.sider-arrow-img .bi-arrow-right-square{
+ .bi-arrow-right-square{
     right: 60px;
 }
-.sider-arrow-img .bi-arrow-left-square{
+ .bi-arrow-left-square{
     left: 60px;
 }
 .bi-arrow-left-square:hover , .bi-arrow-right-square:hover {
-    opacity: 1;
     color : gray;
     cursor: pointer;
 }
-
-
 
 /* @media screen  */
 @media screen and (max-width:1200px) {

@@ -14,8 +14,9 @@ let heart = document.querySelectorAll('.sider-move-img i')
 
 //scroll siderbar & button arrow left & button arrow right
 let scrollSider = document.querySelector('.sider-move-img')
-let arrowLeft =  document.querySelector('.sider-move-img .bi-arrow-left-square')
-let arrowRight = document.querySelector('.sider-move-img .bi-arrow-right-square')
+let arrowLeft =  document.querySelector('.bi-arrow-left-square')
+let arrowRight = document.querySelector('.bi-arrow-right-square')
+
 
 /* ----------------------------------------------------------------------------- */
 // TOP HEADER ANIMATION
@@ -51,6 +52,13 @@ for (let i = 0; i< heart.length; i++){
     })
 }
 
+
+//
+// scrollSider.addEventListener("wheel", (event)=>{
+//     event.preventDefault();
+//     scrollSider.scrollLeft += event.deltaY
+// })
+
 // click left 
 arrowLeft.addEventListener("click", ()=> {
     scrollSider.style.scrollBehavior = "smooth"
@@ -61,4 +69,5 @@ arrowLeft.addEventListener("click", ()=> {
 arrowRight.addEventListener("click", ()=> {
     scrollSider.style.scrollBehavior = "smooth"
     scrollSider.scrollLeft += 900
+
 })
