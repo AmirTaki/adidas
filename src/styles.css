@@ -410,14 +410,15 @@ menu {
     cursor: pointer;
     border : black 1px solid
 }
-.button-menu-right {
+.button-menu-right button {
     border: none;
     outline:  none;
     background-color: transparent;
-    border-bottom: 1px solid black;
+    border-bottom: 2px solid black;
     padding-bottom: 5px;
     color : black;
-    font-size: 17px;
+    font-size: 15px;
+    font-weight: 700;
 }
 
 /* @media screen  */
