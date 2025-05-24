@@ -335,9 +335,43 @@ header {
     font-size: 20px;
     padding: 10px;
     top : 55%;
-    left: 5%;
+     left : 30px
 }  
 
+.menu-img p {
+    position: absolute;
+    background-color : rgb(255, 255, 255);
+    color: black;
+    letter-spacing: 1px;
+    font-size: 12px;
+    font-weight:300;
+    padding: 5px;
+    top : 70%;
+    left : 30px
+}
+.menu-img ul{
+    display: flex;
+    flex-flow: row wrap;
+    width: 45%;
+    position: absolute;
+    top : 75%;
+    left : 30px
+}
+.menu-img ul li {
+    /* position: absolute; */
+    background-color : rgb(255, 255, 255);
+    margin: 10px;
+    color: black;
+    letter-spacing: 1px;
+    font-size: 17px;
+    font-weight:600;
+    padding: 10px;
+    list-style-type: none;
+}
+.menu-img  i{
+    font-size: 15px;
+    font-weight:900;
+}
 
 /* @media screen  */
 @media screen and (max-width:1200px) {
