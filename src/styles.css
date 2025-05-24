@@ -304,6 +304,13 @@ header {
     padding: 20px;
 
 }
+/* MENU */
+.menu-img img {
+    width: 100%;
+    object-fit: cover;
+    height: 500px;
+}
+
 
 /* @media screen  */
 @media screen and (max-width:1200px) {
