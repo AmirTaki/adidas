@@ -430,7 +430,14 @@ menu {
 /* img sider */
 .img-sider {
     background-color: blue;
-    width: 200px;
+    width: 250px;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+}
+.img-sider img{
+    width: 90%;
+    margin: 10px;
 }
 
 /* @media screen  */
