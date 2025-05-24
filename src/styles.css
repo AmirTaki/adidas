@@ -252,6 +252,11 @@ header {
 }
 
 /* MEGA MENU */
+.all-megaMenu{
+    background-color: red;
+    display: flex;
+    flex-flow: column nowrap;
+}
 .megaMenu {
   background-color: yellow; 
   display: flex;
@@ -276,6 +281,12 @@ header {
 .megaMenu ul li:hover {
     text-decoration: underline;
     cursor: pointer;
+}
+
+
+.title-megaMenu {
+    display: flex;
+    flex-flow:  row nowrap;
 }
 
 /* @media screen  */
