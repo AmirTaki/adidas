@@ -267,6 +267,7 @@ header {
     position: fixed;
     top: 151px;
     width: 100%;
+    z-index: 4;
 }
 .megaMenu {
   background-color: transparent; 
@@ -313,6 +314,9 @@ header {
 
 }
 /* MENU */
+menu {
+    margin-top:  100px;
+}
 .menu-img {
     position: relative;
 }
