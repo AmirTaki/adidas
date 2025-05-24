@@ -245,7 +245,19 @@ header {
 }
 
 @media screen and  (max-width : 950px) {
+    .header-bottom {
+          justify-content: space-between;
+    }   
     .icon-list-header{
         display: inline;
+    }
+    .header-li{
+        display: none;
+    }
+    .search-header input {
+        display: none;
+    }
+    .search-header .bi-suit-heart{
+        display: none;
     }
 }
