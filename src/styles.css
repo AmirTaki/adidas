@@ -321,10 +321,21 @@ header {
     color : rgb(255, 255, 255);
     background-color: transparent;
     letter-spacing: 3px;
-    font-size: 38px;
+    font-size: 48px;
+    font-weight: 800;
     top : 5%;
-    left: 5%;
+    left: 2%;
+}  
 
+.menu-img h3 {
+    position: absolute;
+    background-color : rgb(255, 255, 255);
+    color: black;
+    letter-spacing: 3px;
+    font-size: 20px;
+    padding: 10px;
+    top : 55%;
+    left: 5%;
 }  
 
 
@@ -335,9 +346,7 @@ header {
     }   
     .menu-img img {
         object-fit:cover;
-        height: 400px;
-    
-        
+        height: 400px;    
     }
 }
 
@@ -376,7 +385,7 @@ header {
         object-position: center;
     }
     .menu-img h2 {
-        left: 45%;
+        left: 35%;
     }
 
 }
