@@ -229,7 +229,32 @@ header {
     margin-left: 5px;
     margin-right: 10px;
     font-size: 23px;
+    
 }
+
+.meddle-header {
+    background-color: rgb(237, 237, 237);
+    padding: 18px;
+    text-align: center;
+    position: relative;
+  
+}
+.meddle-header h3 {
+    font-size:13px ;
+    font-weight: 300;
+}
+.meddle-header i {
+    position: absolute;
+    right: 24px;
+    top : 12px;
+    font-size: 24px;
+    color : gray
+}
+
+
+
+
+
 /* ACTIVE & DEACTIVE */
 .active {
     display: "";
@@ -237,18 +262,6 @@ header {
 .deactive {
     display: none;
 }
-.meddle-header {
-    border: 1px saddlebrown solid;
-    background-color: rgb(237, 237, 237);
-    padding: 14px;
-    text-align: center;
-  
-}
-.meddle-header h3 {
-    font-size:13px ;
-      font-weight: 300;
-}
-
 
 /* @media screen  */
 @media screen and (max-width:1200px) {
