@@ -334,8 +334,8 @@ header {
     letter-spacing: 3px;
     font-size: 20px;
     padding: 10px;
-    top : 55%;
-     left : 30px
+    top : 300px;
+    left : 5%
 }  
 
 .menu-img p {
@@ -346,16 +346,16 @@ header {
     font-size: 12px;
     font-weight:300;
     padding: 5px;
-    top : 70%;
-    left : 30px
+    top : 350px;
+    left : 5%
 }
 .menu-img ul{
     display: flex;
     flex-flow: row wrap;
     width: 45%;
     position: absolute;
-    top : 75%;
-    left : 30px
+    top : 390px;
+    left : 4.4%
 }
 .menu-img ul li {
     /* position: absolute; */
@@ -381,6 +381,16 @@ header {
     .menu-img img {
         object-fit:cover;
         height: 400px;    
+    }
+
+    .menu-img h3 {
+        top : 260px
+    }
+    .menu-img p {
+        top : 310px
+    }
+    .menu-img ul {
+        top : 340px
     }
 }
 
@@ -420,6 +430,19 @@ header {
     }
     .menu-img h2 {
         left: 35%;
+    }
+
+    .menu-img h3 {
+        top : 500px;
+        left : 10px
+    }
+    .menu-img p {
+        top : 550px;
+        left : 10px
+    }
+    .menu-img ul {
+        top : 590px;
+        left : 3px
     }
 
 }
