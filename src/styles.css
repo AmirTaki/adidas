@@ -478,13 +478,15 @@ menu {
 }
 .sider-move-img .bi-suit-heart{
     position: absolute;
-    right: 10px;
-    top : 10px
+    right: 30px;
+    top : 30px;
+    font-size: 25px;
 }
 .sider-move-img .bi-suit-heart-fill{
-    position: absolute;
-    right: 10px;
-    top : 10px
+  position: absolute;
+    right: 30px;
+    top : 30px;
+    font-size: 25px;
 }
 .sider-move-img .bi-suit-heart:hover {
     color : rgb(226, 226, 226)
