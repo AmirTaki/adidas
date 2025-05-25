@@ -54,29 +54,26 @@ for (let i = 0; i< heart.length; i++){
 
 
 
-scrollSider.addEventListener("wheel", (event)=>{
-    event.preventDefault();
-    scrollSider.scrollLeft += event.deltaY
-})
+// scrollSider.addEventListener("wheel", (event)=>{
+//     event.preventDefault();
+//     scrollSider.scrollLeft += event.deltaY
+// })
 
 // click left 
-arrowLeft.addEventListener("click", ()=> {
-    scrollSiderBar ()
+arrowLeft.addEventListener("click", (event)=> {
     scrollSider.style.scrollBehavior = "smooth"
     scrollSider.scrollLeft -= 900  
 })
 
 // click right
 arrowRight.addEventListener("click", ()=> {
-    scrollSiderBar ()
     scrollSider.style.scrollBehavior = "smooth"
     scrollSider.scrollLeft += 900
 })
 
 
 function scrollSiderBar () {
-    
-    arrowLeft.style.opacity = scrollSider.scrollLeft > 800 ? .3 : 0
+    arrowLeft.style.opacity = scrollSider.scrollLeft <= "80" ? .3 : 0
     arrowRight.style.opacity = scrollSider.scrollLeft < (scrollSider.scrollWidth - 500) ? .3 : 0
 }
 scrollSiderBar () 
